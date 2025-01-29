@@ -4,6 +4,10 @@ import lombok.*;
 
 @Setter
 @Getter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 
 public class Product {
     private String name;
