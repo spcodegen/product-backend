@@ -21,7 +21,6 @@ public class ProductService {
          //step 03
          Product prd3 = Product.builder().name("Banana").description("yellow color fruit").price(15.25).build();
 
-         List<Product> list = Arrays.asList(prd1, prd2, prd3);
-         return list;
+         return Arrays.asList(prd1, prd2, prd3);
      }
 }

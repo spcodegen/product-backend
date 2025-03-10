@@ -17,8 +17,6 @@ public class CustomerController {
 
     @GetMapping("/search-customer")
     Customer searchCustomerV2(@RequestParam(name = "nic") String nic, @RequestParam(name = "name") String name) {
-        System.out.println(nic);
-        System.out.println(name);
         return null;
     }
 }
